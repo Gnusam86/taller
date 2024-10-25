@@ -1,9 +1,10 @@
 # Crear un diccionario
-estudiante = {
-    "nombre": "Juan",
-    "edad": 21,
-    "carrera": "Ingeniería"
-}
+estudiantes = [
+    {"nombre": "Ana", "calificacion": 85},
+    {"nombre": "Luis", "calificacion": 65},
+    {"nombre": "Marta", "calificacion": 90},
+    {"nombre": "Juan", "calificacion": 72}
+]
 
 # Acceder a un valor
 print(estudiante["nombre"])  # Output: Juan
