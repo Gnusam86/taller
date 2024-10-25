@@ -28,7 +28,7 @@ print(frutas_mayusculas)  # Output: ['MANZANA', 'BANANA', 'CEREZA']
 pares_ordenados = [(x, y) for x in range(3) for y in range(3)]
 print(pares_ordenados)  # Output: [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
 
-#FILTRARY TRANSFORMAR SIMULTANEAMENTE
+#FILTRAR Y TRANSFORMAR SIMULTANEAMENTE
 # Lista de cuadrados de números pares del 0 al 9
 cuadrados_pares = [x**2 for x in range(10) if x % 2 == 0]
 print(cuadrados_pares)  # Output: [0, 4, 16, 36, 64]
